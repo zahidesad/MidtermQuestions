@@ -9,6 +9,9 @@ import java.util.Scanner;
 public class Question5 {
 
     public static void main(String[] args) {
+        //Write a Java method that creates a rectangular pattern, filled with stars, according to the width
+        //and height information received from the user. Create a method to do this and write the code to use it.
+        
         Scanner input = new Scanner(System.in);
 
         System.out.print("Please enter a height for your rectangle : ");
