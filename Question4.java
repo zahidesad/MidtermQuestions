@@ -21,9 +21,9 @@ public class Question4 {
 
         System.out.print("Please enter a string : ");
         String string = input.next();
-        int stringLength = string.length();
+        
 
-        switch (stringLength) {
+        switch (string.length()) {
             case 1:
                 for (int i = 0; i < 10; i++) {
                     System.out.println(string);
